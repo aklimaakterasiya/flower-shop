@@ -1,0 +1,26 @@
+body {
+    background-color: rgba(245, 248, 255, 1);
+    font-family: "Noto Serif", serif;
+    width: 1140px;
+    margin: auto;
+}
+
+/* nav style  */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.shop {
+    gap: 48px;
+
+}
+
+.shop li {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgba(37, 36, 50, 1);
+    list-style: none;
+}
