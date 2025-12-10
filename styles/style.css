@@ -50,3 +50,18 @@ span {
     font-size: 22px;
     font-weight: 400;
 }
+
+/* plant section  */
+
+.plant h3 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+span {
+    color: rgba(233, 90, 8, 1);
+}
+
+.plant{
+    text-align: center;
+}
