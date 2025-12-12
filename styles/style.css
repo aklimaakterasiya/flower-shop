@@ -65,3 +65,20 @@ span {
 .plant{
     text-align: center;
 }
+
+.lily{
+    width: 270px;
+    text-align: center;
+}
+
+.lily .blossom{
+    font-size: 22px;
+    font-weight: 500;
+    margin: 30px 0 20px;
+}
+
+.usd{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+}
