@@ -59,7 +59,7 @@ span {
     margin: 0;
 }
 
-.plant p{
+.plant p {
     margin: 16px 0 49px;
 }
 
@@ -88,7 +88,7 @@ span {
     margin: 0;
 }
 
-.button{
+.button {
     background-color: rgba(233, 90, 8, 1);
     font-size: 16px;
     font-weight: 600;
@@ -106,4 +106,31 @@ span {
     column-gap: 20px;
     row-gap: 30px;
 
+}
+
+/* flower & plants  */
+
+.flower-lover {
+    display: flex;
+    gap: 60px;
+    margin-top: 210px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flower-plant {
+    width: 540px;
+}
+
+.flowers-lover h3 {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+    margin: 0;
+}
+
+.flowers-lover li{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
 }
