@@ -153,3 +153,34 @@ span {
     font-weight: 400;
     text-align: center;
 }
+
+/* Latest  Deals section */
+
+.bloom{
+    background-image: url("/assets/deal-bloom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.zoba{
+    background-image: url("/assets/deal-zabo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.ana{
+    background-image: url("/assets/deal-ana.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.garden{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
