@@ -161,6 +161,9 @@ span {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    text-align: center;
+     width: 366px;
+    height: 206px;
 }
 
 .zoba{
@@ -170,6 +173,9 @@ span {
     width: 100%;
     grid-column: span 2;
     grid-row: span 2;
+    text-align: center;
+    width: 753px;
+    height: 423px;
 }
 
 .ana{
@@ -177,10 +183,20 @@ span {
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    text-align: center;
+    width: 366px;
+    height: 206px;
 }
 
 .garden{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 28px;
+}
+
+.bloom, .ana p{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
 }
