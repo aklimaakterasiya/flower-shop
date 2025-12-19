@@ -143,11 +143,11 @@ span {
     margin: 133px 0 16px;
 }
 
-.span{
+.span {
     color: #E95A08;
 }
 
-.deals p{
+.deals p {
     color: rgba(0, 0, 0, 0.5);
     font-size: 22px;
     font-weight: 400;
@@ -156,17 +156,18 @@ span {
 
 /* Latest  Deals section */
 
-.bloom{
+.bloom {
     background-image: url("/assets/deal-bloom.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     text-align: center;
-     width: 366px;
+    width: 366px;
     height: 206px;
+    border-radius: 15px;
 }
 
-.zoba{
+.zoba {
     background-image: url("/assets/deal-zabo.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -176,9 +177,13 @@ span {
     text-align: center;
     width: 753px;
     height: 423px;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
 }
 
-.ana{
+.ana {
     background-image: url("/assets/deal-ana.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -186,17 +191,30 @@ span {
     text-align: center;
     width: 366px;
     height: 206px;
+    border-radius: 15px;
 }
 
-.garden{
+.garden {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 28px;
 }
 
-.bloom, .ana p{
+.bloom,
+.ana p {
     font-size: 20px;
     font-weight: 700;
     color: rgba(255, 255, 255, 1);
     text-align: center;
+
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop{
+    text-decoration: underline;
 }
