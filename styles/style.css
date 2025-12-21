@@ -225,7 +225,7 @@ span {
     background-image: url("/assets/news-letter-bg.png");
     background-repeat: no-repeat;
     background-position: center;
-    text-align: center;
+    width: 1440px;
 }
 
 .join h2{
