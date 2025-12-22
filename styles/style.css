@@ -226,6 +226,7 @@ span {
     background-repeat: no-repeat;
     background-position: center;
     width: 1440px;
+    height: 533px;
 }
 
 .join h2{
@@ -233,4 +234,9 @@ span {
     font-weight: 700;
     color: rgba(255, 255, 255, 1);
     padding: 199px 427px 266px; 
+}
+
+.email{
+    align-items: center;
+    gap: 10px;
 }
