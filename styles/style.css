@@ -215,13 +215,13 @@ span {
     align-items: center;
 }
 
-.shop{
+.shop {
     text-decoration: underline;
 }
 
 /* footer section  */
 
-.join{
+.join {
     background-image: url("/assets/news-letter-bg.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -229,14 +229,21 @@ span {
     height: 533px;
 }
 
-.join h2{
+.join h2 {
     font-size: 50px;
     font-weight: 700;
     color: rgba(255, 255, 255, 1);
-    padding: 199px 427px 266px; 
 }
 
-.email{
+.email {
     align-items: center;
     gap: 10px;
+}
+
+.home{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 110px;
+    list-style: none;
+    margin: 50px 0;
 }
