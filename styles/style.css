@@ -169,6 +169,8 @@ span {
     width: 366px;
     height: 206px;
     border-radius: 15px;
+    color: rgba(255, 255, 255, 1);
+
 }
 
 .zoba {
@@ -180,7 +182,7 @@ span {
     grid-row: span 2;
     text-align: center;
     width: 753px;
-    height: 423px;
+    height: 424px;
     font-size: 40px;
     font-weight: 700;
     color: rgba(255, 255, 255, 1);
@@ -196,12 +198,14 @@ span {
     width: 366px;
     height: 206px;
     border-radius: 15px;
+    color: rgba(255, 255, 255, 1);
 }
 
 .garden {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 28px;
+    color: rgba(255, 255, 255, 1);
 }
 
 .bloom,
@@ -211,6 +215,10 @@ span {
     color: rgba(255, 255, 255, 1);
     text-align: center;
 
+}
+
+.garden p {
+    color: white;
 }
 
 .flex-center {
@@ -224,6 +232,7 @@ span {
 }
 
 
+/* colorful section  */
 .join {
     background-image: url("/assets/news-letter-bg.png");
     background-repeat: no-repeat;
@@ -271,26 +280,29 @@ span {
     margin: 50px 0;
 }
 
-.icon{
+.icon {
     display: flex;
     align-items: start;
     gap: 20px;
-    
+
 }
 
-.icon img{
+.icon img {
     width: 36px;
     height: 36px;
 }
 
-.width li{
+.width li {
     margin-bottom: 32px;
     color: rgba(107, 114, 128, 1);
 }
 
-.width p{
-    color: rgba(0, 0, 0, 0.5);
+.width p {
     font-size: 22px;
     font-weight: 400;
     margin-top: 16px;
+}
+
+footer p {
+    color: rgba(0, 0, 0, 0.5);
 }
