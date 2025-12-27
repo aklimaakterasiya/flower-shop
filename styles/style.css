@@ -151,11 +151,14 @@ span {
     color: #E95A08;
 }
 
-.deals p {
+.beauty {
     color: rgba(0, 0, 0, 0.5);
     font-size: 22px;
     font-weight: 400;
     text-align: center;
+    padding-bottom: 120px; 
+    width: 70%;
+    margin: auto;
 }
 
 /* Latest  Deals section */
@@ -166,7 +169,7 @@ span {
     background-size: cover;
     width: 100%;
     text-align: center;
-    width: 366px;
+    /* width: 366px; */
     height: 206px;
     border-radius: 15px;
     color: rgba(255, 255, 255, 1);
@@ -181,8 +184,8 @@ span {
     grid-column: span 2;
     grid-row: span 2;
     text-align: center;
-    width: 753px;
-    height: 424px;
+    /* width: 753px; */
+    /* height: 424px; */
     font-size: 40px;
     font-weight: 700;
     color: rgba(255, 255, 255, 1);
@@ -195,7 +198,7 @@ span {
     background-size: cover;
     width: 100%;
     text-align: center;
-    width: 366px;
+    /* width: 366px; */
     height: 206px;
     border-radius: 15px;
     color: rgba(255, 255, 255, 1);
@@ -297,7 +300,7 @@ span {
     color: rgba(107, 114, 128, 1);
 }
 
-.width p {
+footer p {
     font-size: 22px;
     font-weight: 400;
     margin-top: 16px;
