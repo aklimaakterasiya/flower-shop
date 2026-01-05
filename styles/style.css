@@ -120,6 +120,7 @@ span {
     margin-top: 210px;
     align-items: center;
     justify-content: space-between;
+    z-index: 20;
 }
 
 .flower-plant {
@@ -137,6 +138,15 @@ span {
     font-size: 22px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
+}
+
+.badge{
+    width: 18%;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: -330px;
+    margin-top: -200px;
+    z-index: 10;
 }
 
 /* Latest  Deals section  */
