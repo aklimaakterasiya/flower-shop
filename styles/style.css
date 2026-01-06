@@ -120,7 +120,6 @@ span {
     margin-top: 210px;
     align-items: center;
     justify-content: space-between;
-    z-index: 20;
 }
 
 .flower-plant {
@@ -140,14 +139,22 @@ span {
     color: rgba(0, 0, 0, 0.5);
 }
 
-.badge{
-    width: 18%;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-bottom: -330px;
-    margin-top: -200px;
-    z-index: 10;
+.flower {
+    position: relative;
 }
+
+.badge{
+    position: absolute;
+    left: 40%;
+    top: -15%;
+    margin: 0;
+}
+
+.badge img {
+    width: 200px;
+    margin: 0;
+}
+
 
 /* Latest  Deals section  */
 .deals h3 {
@@ -166,7 +173,7 @@ span {
     font-size: 22px;
     font-weight: 400;
     text-align: center;
-    padding-bottom: 120px; 
+    padding-bottom: 120px;
     width: 70%;
     margin: auto;
 }
