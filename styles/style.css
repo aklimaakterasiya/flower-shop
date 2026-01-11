@@ -328,7 +328,18 @@ footer p {
 /* small device  */
 
 @media screen and (max-width:576px) {
-    
+    .flex{
+        width: 400px;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .fresh{
+        margin: 30px;
+    }
+    .fresh img{
+        width: 100%;
+    }
 }
 
 
