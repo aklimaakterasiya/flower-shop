@@ -143,7 +143,7 @@ span {
     position: relative;
 }
 
-.badge{
+.badge {
     position: absolute;
     left: 40%;
     top: -15%;
@@ -328,17 +328,33 @@ footer p {
 /* small device  */
 
 @media screen and (max-width:576px) {
-    .flex{
+    .flex {
         width: 400px;
     }
-    .flex{
+
+    .flex,
+    .lily {
         flex-direction: column;
     }
-    .fresh{
+
+    .fresh,
+    .plant h3,
+    .plant p {
         margin: 30px;
     }
-    .fresh img{
+
+    .fresh img,{
         width: 100%;
+    }
+
+    .plant h3,
+    .plant p {
+        padding: 20px;
+    }
+
+    .lily {
+    grid-template-columns: repeat(2, 1fr);
+    
     }
 }
 
@@ -347,6 +363,4 @@ footer p {
 
 /* medium device  */
 
-@media screen and (min-width:576px) and (max-width:992px) {
-    
-}
+@media screen and (min-width:576px) and (max-width:992px) {}
