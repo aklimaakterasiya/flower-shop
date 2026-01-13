@@ -343,7 +343,7 @@ footer p {
         margin: 30px;
     }
 
-    .fresh img,{
+    .fresh img, .flower, .deals, .garden{
         width: 100%;
     }
 
@@ -352,7 +352,7 @@ footer p {
         padding: 20px;
     }
 
-    .lily {
+    .lily, .garden {
     grid-template-columns: repeat(2, 1fr);
     
     }
