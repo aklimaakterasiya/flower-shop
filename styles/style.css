@@ -333,13 +333,13 @@ footer p {
     }
 
     .flex,
-    .lily {
+    .lily, footer {
         flex-direction: column;
     }
 
     .fresh,
     .plant h3,
-    .plant p {
+    .plant p, .join{
         margin: 30px;
     }
 
@@ -352,9 +352,13 @@ footer p {
         padding: 20px;
     }
 
-    .lily, .garden {
+    .lily, .garden, .home {
     grid-template-columns: repeat(2, 1fr);
     
+    }
+
+    .bloom, .ana{
+        align-items: center;
     }
 }
 
