@@ -368,5 +368,8 @@ footer p {
 /* medium device  */
 
 @media screen and (min-width:576px) and (max-width:992px) {
+     .lily, .garden, .home {
+    grid-template-columns: repeat(3, 1fr);
     
+    }
 }
