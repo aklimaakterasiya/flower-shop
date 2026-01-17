@@ -5,7 +5,7 @@ body {
 }
 
 .width {
-    width: 1140px;
+    max-width: 1140px;
     margin: auto;
 }
 
@@ -123,7 +123,7 @@ span {
 }
 
 .flower-plant {
-    width: 540px;
+    max-width: 100%;
 }
 
 .flowers-lover h3 {
@@ -184,7 +184,7 @@ span {
     background-image: url("/assets/deal-bloom.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    max-width: 100%;
     text-align: center;
     /* width: 366px; */
     height: 206px;
@@ -197,7 +197,7 @@ span {
     background-image: url("/assets/deal-zabo.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    max-width: 100%;
     grid-column: span 2;
     grid-row: span 2;
     text-align: center;
@@ -213,7 +213,7 @@ span {
     background-image: url("/assets/deal-ana.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    max-width: 100%;
     text-align: center;
     /* width: 366px; */
     height: 206px;
@@ -333,7 +333,7 @@ footer p {
     }
 
     .flex,
-    .lily, footer {
+    .lily, footer, .flower-lover {
         flex-direction: column;
     }
 
@@ -353,7 +353,7 @@ footer p {
     }
 
     .lily, .garden, .home {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     
     }
 
@@ -371,5 +371,10 @@ footer p {
      .lily, .garden, .home {
     grid-template-columns: repeat(3, 1fr);
     
+    }
+
+    .flex,
+    .lily, footer, .flower-lover {
+        flex-direction: column;
     }
 }
