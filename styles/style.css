@@ -76,7 +76,7 @@ span {
 }
 
 .lily {
-    width: 270px;
+    /* width: 270px; */
     text-align: center;
 }
 
@@ -120,6 +120,10 @@ span {
     margin-top: 210px;
     align-items: center;
     justify-content: space-between;
+}
+
+.flowers-lover {
+    flex: 1;
 }
 
 .flower-plant {
@@ -186,8 +190,7 @@ span {
     background-size: cover;
     max-width: 100%;
     text-align: center;
-    /* width: 366px; */
-    height: 206px;
+    padding: 50px 0;
     border-radius: 15px;
     color: rgba(255, 255, 255, 1);
 
@@ -201,8 +204,6 @@ span {
     grid-column: span 2;
     grid-row: span 2;
     text-align: center;
-    /* width: 753px; */
-    /* height: 424px; */
     font-size: 40px;
     font-weight: 700;
     color: rgba(255, 255, 255, 1);
@@ -215,8 +216,7 @@ span {
     background-size: cover;
     max-width: 100%;
     text-align: center;
-    /* width: 366px; */
-    height: 206px;
+    padding: 50px 0;
     border-radius: 15px;
     color: rgba(255, 255, 255, 1);
 }
@@ -328,22 +328,24 @@ footer p {
 /* small device  */
 
 @media screen and (max-width:576px) {
-    .flex {
-        width: 400px;
-    }
 
     .flex,
-    .lily, footer, .flower-lover {
+    .lily,
+    footer,
+    .flower-lover {
         flex-direction: column;
     }
 
     .fresh,
     .plant h3,
-    .plant p, .join{
+    .plant p,
+    .join {
         margin: 30px;
     }
 
-    .fresh img, .flower, .deals, .garden{
+    .fresh img,
+    .deals,
+    .garden {
         width: 100%;
     }
 
@@ -352,13 +354,36 @@ footer p {
         padding: 20px;
     }
 
-    .lily, .garden, .home {
-    grid-template-columns: repeat(1, 1fr);
-    
+    .lily,
+    .garden,
+    .home {
+        grid-template-columns: repeat(1, 1fr);
+
     }
 
-    .bloom, .ana{
+    .bloom,
+    .ana {
         align-items: center;
+    }
+
+    .home {
+        text-align: center;
+        gap: 20px;
+    }
+
+    .icon {
+        justify-content: center;
+    }
+
+    .zoba {
+        grid-column: span 1;
+        grid-row: span 1;
+        padding: 50px 0;
+    }
+
+    .zoba p {
+        font-size: 20px;
+        font-weight: 700;
     }
 }
 
@@ -368,13 +393,45 @@ footer p {
 /* medium device  */
 
 @media screen and (min-width:576px) and (max-width:992px) {
-     .lily, .garden, .home {
-    grid-template-columns: repeat(3, 1fr);
-    
+
+    .lily,
+    .garden,
+    .home {
+        grid-template-columns: repeat(2, 1fr);
+
     }
 
     .flex,
-    .lily, footer, .flower-lover {
+    .lily,
+    footer,
+    .flower-lover {
         flex-direction: column;
     }
+
+    .home {
+        text-align: center;
+        gap: 20px;
+    }
+
+    .icon {
+        justify-content: center;
+    }
+
+    .zoba {
+        grid-column: span 1;
+        grid-row: span 1;
+        padding: 50px 0;
+
+    }
+
+    .ana {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .zoba p {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
 }
